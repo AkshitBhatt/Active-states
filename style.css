@@ -15,7 +15,6 @@ body {
 }
 
 .img {
-  /* margin: 2rem; */
   width: 8rem;
   border-radius: 50%;
   border: 4px solid white;
@@ -23,7 +22,6 @@ body {
 
 .card {
   background-color: rgb(75, 75, 226);
-  height: 32vh;
   border-radius: 27px;
   padding: 2rem;
 }
@@ -31,7 +29,6 @@ body {
 .m-container {
   background-color: #14173d;
   border-radius: 27px;
-  width: 35%;
 }
 
 .jere {
@@ -47,11 +44,6 @@ body {
   cursor: pointer;
 }
 
-.card1 {
-  height: 20vh;
-  width: 50%;
-}
-
 .ell {
   height: 0.5rem;
   margin-top: 1rem;
@@ -63,7 +55,6 @@ body {
 .work1 {
   border-radius: 30px;
   background-color: #ff8b64;
-  width: 100%;
 }
 .work {
   padding: 3rem;
@@ -74,15 +65,20 @@ body {
   color: white;
 }
 
-li {
-  color: grey;
-}
-
 .plus {
   width: 3rem;
 }
 
-li:active,
-li:visited {
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: grey;
+}
+
+.active,
+.btn:hover {
   color: white;
 }
