@@ -47,16 +47,16 @@
   </head>
   <body>
     <div
-      class="container main-container gap-2 d-flex align-items-center justify-content-center gap-1"
+      class="main-container container gap-3 d-flex align-items-center"
     >
-      <div class="m-container d-flex flex-column">
-        <div class="card d-flex gap-2">
+      <div class="m-container col-3 d-flex flex-column">
+        <div class="card d-flex gap-5">
           <img
             class="card-img-top img img-fluid"
             src="images/image-jeremy.png"
             alt="Card image cap"
           />
-          <div >
+          <div class="gap-5" >
           <p class="text-light">Reported for</p>
           <h1 class="jere text-light">
             Jeremy<br />
@@ -64,15 +64,20 @@
           </h1>
         </div>
       </div>
-      <div class="days d-flex col-2 parent">
-        <ul class="text-light list-unstyled d-flex flex-column gap-3 fs-">
+      <div class="d-flex flex-column  days" id="myDIV">
+        <button class="btn Daily">Daily</button>
+        <button class="btn weekly active">Weekly</button>
+        <button class="btn Monthly">Monthly</button>
+      </div>
+      <!-- <div class="days d-flex col-2 ">
+        <ul class="text-light list-unstyled d-flex flex-column gap-3 ">
           <li class="Daily">Daily</li>
           <li class="weekly">Weekly</li>
           <li class="Monthly">Monthly</li>
         </ul>
-      </div>
+      </div> -->
     </div>
-    <div class=" d-flex flex-wrap gap-3  work-3">
+    <div class="d-flex flex-wrap gap-2   work-3">
       <!-- <div class="d-flex gap-5">
           <div
             class="work1 work1 d-flex flex-column align-items-end justify-content-end"
